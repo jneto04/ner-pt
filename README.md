@@ -20,12 +20,12 @@ Results for the Selective Scenario (HAREM)
 | BiLSTM-CRF [(Castro, et al.)](https://www.researchgate.net/publication/326301193_Portuguese_Named_Entity_Recognition_using_LSTM-CRF) |       78.26%       | 74.39% | 76.27% |
 |   CharWNN [(dos Santos, et al.)](https://arxiv.org/pdf/1505.05008.pdf) |       73.98%       | 68.68% |    65.41%    |
 
-## Reproduce our tests
+## Reproduce our tests for NER
 
 Antes de tudo, você deve conhcer a biblioteca Flair. Flair is a powerful NLP library with state-of-the-art results. Flair was developed by [Zalando Research](https://research.zalando.com/). You can see all details in this github [link](https://github.com/zalandoresearch/flair).
 * Paper: Contextual String Embeddings for Sequence Labeling [(Akbik, et al.)](https://drive.google.com/file/d/17yVpFA7MmXaQFTe-HDpZuqw9fJlmzg56/view)
 
-STEP 1: Download our language models (backward an forward);
+STEP 1: Download our language model FlairBBP (backward and forward);
 
 STEP 2: Clone these repository; 
 
@@ -35,7 +35,25 @@ STEP 4: Faça o download do Word Embedding do NILC. Você deve baixar o Word2Vec
 
 STEP 5: Run our script ```python3.6 ner_flair.py```
 
-## Tagging your portuguese text
+## Tagging your portuguese text with our NER model
+
+Marque seu texto usando nosso melhor modelo para NER. O modelo é formado pelo FlairBBP + NILC-Word2Vec-Skpg-300d. É possível reconhecer as categorias PERSON, LOCATION, ORGANIZATION, TIME and VALUE.
+
+STEP 1: Download our NER model - [Download Here!]()
+
+```python
+from flair.data import Sentence
+from flair.models import SequenceTagger
+
+# make a sentence
+sentence = Sentence('I love Berlin .')
+
+# load the NER tagger
+tagger = SequenceTagger.load('ner')
+
+# run NER over sentence
+tagger.predict(sentence)
+```
 
 ## Language Models
 
