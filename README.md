@@ -1,7 +1,7 @@
 # Analyzing the Impact of Language Models for Portuguese Named Entity Recognition
 
 
-State-of-The-Art results
+State-of-The-Art results evaluated by CoNLL-2002 Script
 
 
 Results for the Total Scenario (HAREM)
