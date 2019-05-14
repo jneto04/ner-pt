@@ -24,11 +24,23 @@ Results for the Selective Scenario (HAREM)
 
 
 ## Language Models Corpora
+
 ### BlogSet-BR
 BlogSet-BR is a large corpus built from millions of sentences taken from Brazilian Portuguese web blogs.
+* Paper: BlogSet-BR: A Brazilian Portuguese Blog Corpus [(Santos, et al.)](http://www.lrec-conf.org/proceedings/lrec2018/summaries/10.html)
+* [Download Here!](http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/blogset-br/)
 
 ### brWaC
-brWaC is another large corpus but it is built through a metodology called Wacky
+brWaC is another portuguese large corpus.
+* Paper: The brWaC Corpus: A New Open Resource for Brazilian Portuguese[(Filho, et al.)](https://www.researchgate.net/publication/326303825_The_brWaC_Corpus_A_New_Open_Resource_for_Brazilian_Portuguese)
+* [Download Here!](http://www.inf.ufrgs.br/pln/wiki/index.php?title=BrWaC)
+
+|      Corpus     |  Sentences  |     Tokens    |
+|:---------------:|:-----------:|:-------------:|
+|      brWaC      | 127,272,109 | 2,930,573,938 |
+|    BlogSet-BR   |  58,494,090 | 1,807,669,068 |
+| ptwiki-20190301 |  7,053,954  |  162,109,057  |
+|   All Corpora   | 192,820,153 | 4,900,352,063 |
 
 ## Language Models
 ### Word Embeddings
