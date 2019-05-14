@@ -33,7 +33,7 @@ STEP 3: Install the Flair. See how to install [here](https://github.com/zalandor
 
 STEP 4: Faça o download do Word Embedding do NILC. Você deve baixar o Word2Vec-Skip-Gram com 300 dimensões; Coloque o arquivo dentro da pasta clonada;
 
-STEP 5: Run our script ```ner_flair.py```
+STEP 5: Run our script ```python3.6 ner_flair.py```
 
 ## Tagging your portuguese text
 
