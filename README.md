@@ -43,6 +43,7 @@ You can download our Word Embedding models in the following links, note that all
 
 ### NILC Word Embeddings
 You can download the Word Embeddings provided by NILC in the following link: http://nilc.icmc.usp.br/embeddings
+* Paper: Portuguese Word Embeddings: Evaluating on Word Analogies and Natural Language Tasks [(Hartmann, et al.)](https://arxiv.org/pdf/1708.06025.pdf)
 
 ## Language Models Corpora
 
@@ -53,7 +54,7 @@ BlogSet-BR is a large corpus built from millions of sentences taken from Brazili
 
 ### brWaC
 brWaC is another portuguese large corpus.
-* Paper: The brWaC Corpus: A New Open Resource for Brazilian Portuguese[(Filho, et al.)](https://www.researchgate.net/publication/326303825_The_brWaC_Corpus_A_New_Open_Resource_for_Brazilian_Portuguese)
+* Paper: The brWaC Corpus: A New Open Resource for Brazilian Portuguese [(Filho, et al.)](https://www.researchgate.net/publication/326303825_The_brWaC_Corpus_A_New_Open_Resource_for_Brazilian_Portuguese)
 * [Download Here!](http://www.inf.ufrgs.br/pln/wiki/index.php?title=BrWaC)
 
 ### ptwiki-20190301
