@@ -22,6 +22,22 @@ Results for the Selective Scenario (HAREM)
 | BiLSTM-CRF [(Castro, et al.)](https://www.researchgate.net/publication/326301193_Portuguese_Named_Entity_Recognition_using_LSTM-CRF) |       78.26%       | 74.39% | 76.27% |
 |   CharWNN [(dos Santos, et al.)](https://arxiv.org/pdf/1505.05008.pdf) |       73.98%       | 68.68% |    65.41%    |
 
+## Reproduce our tests
+
+Antes de tudo, você deve conhcer a biblioteca Flair. Flair is a powerful NLP library with state-of-the-art results. Flair was developed by [Zalando Research](https://research.zalando.com/). You can see all details in this github [link](https://github.com/zalandoresearch/flair).
+* Paper: Contextual String Embeddings for Sequence Labeling [(Akbik, et al.)](https://drive.google.com/file/d/17yVpFA7MmXaQFTe-HDpZuqw9fJlmzg56/view)
+
+STEP 1: Download our language models (backward an forward);
+
+STEP 2: Clone these repository; 
+
+STEP 3: Install the Flair. See how to install [here](https://github.com/zalandoresearch/flair);
+
+STEP 4: Run our script ```ner_flair.py```
+
+## Tagging your portuguese text
+
+
 ## Language Models
 
 ### Flair Embeddings - FlairBBP
