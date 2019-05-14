@@ -39,7 +39,6 @@ STEP 5: Run our script ```ner_flair.py```
 
 ## Tagging your portuguese text
 
-
 ## Language Models
 
 ### Flair Embeddings - FlairBBP
@@ -53,10 +52,10 @@ You can download our Word Embedding models in the following links, note that all
 
 | Algorithm  | Architecture | Downloads |
 | ------------- | ------------- | ------------- |
-| Word2Vec  | Skip-Gram  | [Word2Vec_skpg_300d](http://grupopln.inf.pucrs.br/health/bbp_word2vec_skpg_300d.zip) |
-| Word2Vec  | CBOW  | [Word2Vec_cbow_300d](http://grupopln.inf.pucrs.br/health/bbp_word2vec_cbow_300d.zip) |
-| FastText   | Skip-Gram  | [Fasttext_skpg_300d](http://grupopln.inf.pucrs.br/health/bbp_fasttext_skpg_300d.zip) |
-| FastText   | CBOW  | [Fasttext_cbow_300d](http://grupopln.inf.pucrs.br/health/bbp_fasttext_cbow_300d.zip) |
+| Word2Vec  | Skip-Gram  | [Word2Vec_skpg_300d](http://grupopln.inf.pucrs.br/lm-bbp/bbp_word2vec_skpg_300d.zip) |
+| Word2Vec  | CBOW  | [Word2Vec_cbow_300d](http://grupopln.inf.pucrs.br/lm-bbp/bbp_word2vec_cbow_300d.zip) |
+| FastText   | Skip-Gram  | [Fasttext_skpg_300d](http://grupopln.inf.pucrs.br/lm-bbp/bbp_fasttext_skpg_300d.zip) |
+| FastText   | CBOW  | [Fasttext_cbow_300d](http://grupopln.inf.pucrs.br/lm-bbp/bbp_fasttext_cbow_300d.zip) |
 
 
 ### NILC Word Embeddings
