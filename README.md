@@ -12,8 +12,6 @@ Results for the Total Scenario (HAREM)
 | BiLSTM-CRF [(Castro, et al.)](https://www.researchgate.net/publication/326301193_Portuguese_Named_Entity_Recognition_using_LSTM-CRF) |     72.28%     | 68.03% | 70.33% |
 |   CharWNN [(dos Santos, et al.)](https://arxiv.org/pdf/1505.05008.pdf)  |     67.16%     | 63.74% | 65.41% |
 
-
-
 Results for the Selective Scenario (HAREM)
 
 | Approach   |    Precision   | Recall |   F1   |
@@ -43,8 +41,8 @@ STEP 5: Run our script ```ner_flair.py```
 
 ### Flair Embeddings - FlairBBP
 You can download our Flair Embeddings models (FlairBBP) in the following links:
-* **Backward:** [FlairBBP-Backward](http://grupopln.inf.pucrs.br/health/flairBBP_backward-pt.pt)
-* **Forward:** [FlairBBP-Forward](http://grupopln.inf.pucrs.br/health/flairBBP_forward-pt.pt)
+* **Backward:** [FlairBBP-Backward](http://grupopln.inf.pucrs.br/lm-bbp/flairBBP_backward-pt.pt)
+* **Forward:** [FlairBBP-Forward](http://grupopln.inf.pucrs.br/lm-bbp/flairBBP_forward-pt.pt)
 
 ### Word Embeddings
 You can download our Word Embedding models in the following links, note that all models were trained in 300 dimensions:
@@ -56,7 +54,6 @@ You can download our Word Embedding models in the following links, note that all
 | Word2Vec  | CBOW  | [Word2Vec_cbow_300d](http://grupopln.inf.pucrs.br/lm-bbp/bbp_word2vec_cbow_300d.zip) |
 | FastText   | Skip-Gram  | [Fasttext_skpg_300d](http://grupopln.inf.pucrs.br/lm-bbp/bbp_fasttext_skpg_300d.zip) |
 | FastText   | CBOW  | [Fasttext_cbow_300d](http://grupopln.inf.pucrs.br/lm-bbp/bbp_fasttext_cbow_300d.zip) |
-
 
 ### NILC Word Embeddings
 You can download the Word Embeddings provided by NILC in the following link: http://nilc.icmc.usp.br/embeddings
@@ -77,7 +74,6 @@ brWaC is another portuguese large corpus.
 ### ptwiki-20190301
 ptwiki-20190301 is a corpus formed by texts from wikipedia in Portuguese.
 * [Download Here!](https://dumps.wikimedia.org/ptwiki/20190301/)
-
 
 Language Model Corpora Size Details (after pre-processing):
 
