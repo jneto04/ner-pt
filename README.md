@@ -22,22 +22,22 @@ Results for the Selective Scenario (HAREM)
 
 ## Reproduce our tests for NER
 
-Antes de tudo, você deve conhcer a biblioteca Flair. Flair is a powerful NLP library with state-of-the-art results. Flair was developed by [Zalando Research](https://research.zalando.com/). You can see all details in this github [link](https://github.com/zalandoresearch/flair).
+Before you begin, you should download the Flair library. Flair is a powerful NLP library with state-of-the-art results. Flair was developed by [Zalando Research](https://research.zalando.com/). You can see all details in this github [link](https://github.com/zalandoresearch/flair).
 * Paper: Contextual String Embeddings for Sequence Labeling [(Akbik, et al.)](https://drive.google.com/file/d/17yVpFA7MmXaQFTe-HDpZuqw9fJlmzg56/view)
 
 STEP 1: Download our language model FlairBBP (backward and forward);
 
-STEP 2: Clone these repository; 
+STEP 2: Clone this repository; 
 
-STEP 3: Install the Flair. See how to install [here](https://github.com/zalandoresearch/flair);
+STEP 3: Install Flair. See how to install [here](https://github.com/zalandoresearch/flair);
 
-STEP 4: Faça o download do Word Embedding do NILC. Você deve baixar o Word2Vec-Skip-Gram com 300 dimensões; Coloque o arquivo dentro da pasta clonada;
+STEP 4: Download NILC's Word Embedding. You must download Word2Vec-Skip-Gram with 300 dimensions; Put the file inside the cloned folder;
 
 STEP 5: Run our script ```python3.6 ner_flair.py```
 
 ## Tagging your portuguese text with our NER model
 
-Marque seu texto usando nosso melhor modelo para NER. O modelo é formado pelo FlairBBP + NILC-Word2Vec-Skpg-300d. É possível reconhecer as categorias PERSON, LOCATION, ORGANIZATION, TIME and VALUE.
+Tag your text using our best model for NER. The model is formed by FlairBBP + NILC-Word2Vec-Skpg-300d. It is possible to recognize the following categories: PERSON, LOCATION, ORGANIZATION, TIME and VALUE.
 
 STEP 1: Download our NER model - [Download Here!]()
 
