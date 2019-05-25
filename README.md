@@ -1,4 +1,4 @@
-# Analyzing the Impact of Language Models for Portuguese Named Entity Recognition
+# Assessing the Impact of Contextual Embeddings for Portuguese Named Entity Recognition
 
 
 State-of-The-Art results evaluated by CoNLL-2002 Script
@@ -42,17 +42,19 @@ Tag your text using our best model for NER. The model is formed by FlairBBP + NI
 STEP 1: Download our NER model - [Download Here!]()
 
 ```python
-from flair.data import Sentence
 from flair.models import SequenceTagger
+from flair.data import Sentence
 
-# make a sentence
-sentence = Sentence('I love Berlin .')
+#Carregando nosso modelo para NER
+tagger = SequenceTagger.load_from_file('portuguese_ner_model.pt')
 
-# load the NER tagger
-tagger = SequenceTagger.load('ner')
+#Escreva sua sentença
+sentence = Sentence('Tom Zé é um músico nascido na Bahia.')
 
-# run NER over sentence
+#Fazendo predição
 tagger.predict(sentence)
+
+print(sentence.to_tagged_string())
 ```
 
 ## Language Models
