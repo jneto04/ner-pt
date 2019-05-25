@@ -1,7 +1,12 @@
 # Assessing the Impact of Contextual Embeddings for Portuguese Named Entity Recognition
 
-
-State-of-The-Art results evaluated by CoNLL-2002 Script
+Modern approaches to Named Entity Recognition (NER) use neural networks (NN) to automatically extract features from text and seamlessly integrate them with sequence taggers in an end-to-end fashion.
+Word embeddings, which are a side product of pretrained neural language models (LMs), are key ingredients to boost the performance of NER systems.
+More recently, contextual word embeddings, which adapt according to the context where the word appears, have proved to be an invaluable resource to improve NER systems.
+In this work, we assess how different combinations of (shallow) word embeddings and contextual embeddings impact NER for the Portuguese Language.
+We show a comparative study of 16 different combinations of shallow and contextual embeddings and explore how textual diversity and the size of training corpora used in LMs impact our NER results.
+We evaluate NER performance using the HAREM corpus.
+Our best NER system outperforms the state-of-the-art in Portuguese NER by 5.99 in absolute percentage points. State-of-The-Art results evaluated by CoNLL-2002 Script.
 
 
 Results for the Total Scenario (HAREM)
