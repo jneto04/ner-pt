@@ -83,7 +83,7 @@ trainer.train('resources/taggers/example-ner',
               learning_rate=0.1,
               mini_batch_size=5,
               embeddings_in_memory = False,
-              max_epochs=1,
+              max_epochs=150,
               checkpoint=True)
 
 from flair.visual.training_curves import Plotter
