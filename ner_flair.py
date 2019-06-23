@@ -13,10 +13,7 @@ import torch
 import gensim
 
 print(" ")
-
 columns = {0: 'token', 1:'pos', 2: 'sublabel', 3:'label'}
-
-
 data_folder = "data/"
 
 corpus: TaggedCorpus = NLPTaskDataFetcher.load_column_corpus(data_folder, columns,
@@ -34,11 +31,9 @@ print("Train: ", corpus.train[0].to_tagged_string('label'))
 print("Test: ", corpus.test[0].to_tagged_string('label'))
 print("Dev: ", corpus.dev[0].to_tagged_string('label'))
 
-# 2. what tag do we want to predict?
 tag_type = 'label'
-
-# 3. make the tag dictionary from the corpus
 tag_dictionary = corpus.make_tag_dictionary(tag_type=tag_type)
+
 print(" ")
 print("Tags: ")
 print(tag_dictionary.idx2item)
@@ -51,13 +46,11 @@ nilc_vectors.save('nilc.gensim')
 nilc_embedding = WordEmbeddings('nilc.gensim')
 
 #Loading Flair Embedding
-
 from flair.embeddings import FlairEmbeddings
 
 flair_embedding_forward = FlairEmbeddings('flairBBP_forward-pt.pt')
 flair_embedding_backward = FlairEmbeddings('flairBBP_backward-pt.pt')
 
-# 4. initialize embeddings
 embedding_types: List[TokenEmbeddings] = [
     nilc_embedding,
     flair_embedding_forward,
@@ -77,11 +70,9 @@ tagger: SequenceTagger = SequenceTagger(hidden_size=256,
 from flair.trainers import ModelTrainer
 
 trainer: ModelTrainer = ModelTrainer(tagger, corpus, optimizer=SGDW)
-
-
 trainer.train('resources/taggers/example-ner',
               learning_rate=0.1,
-              mini_batch_size=5,
+              mini_batch_size=32,
               embeddings_in_memory = False,
               max_epochs=150,
               checkpoint=True)
