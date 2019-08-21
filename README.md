@@ -44,23 +44,13 @@ STEP 5: Run our script ```python3.6 ner_flair.py```
 
 Tag your text using our best model for NER. The model is formed by FlairBBP + NILC-Word2Vec-Skpg-300d. It is possible to recognize the following categories: PERSON, LOCATION, ORGANIZATION, TIME and VALUE.
 
-STEP 1: Download our NER model - [Download Here!]()
+STEP 1: Download our NER model:
+* **Backward:** [FlairBBP-Backward](http://grupopln.inf.pucrs.br/lm-bbp/flairBBP_backward-pt.pt)
+* **Forward:** [FlairBBP-Forward](http://grupopln.inf.pucrs.br/lm-bbp/flairBBP_forward-pt.pt)
 
-```python
-from flair.models import SequenceTagger
-from flair.data import Sentence
+STEP 2: Clone this repository;
 
-#Carregando nosso modelo para NER
-tagger = SequenceTagger.load_from_file('portuguese_ner_model.pt')
-
-#Escreva sua sentença
-sentence = Sentence('Tom Zé é um músico nascido na Bahia.')
-
-#Fazendo predição
-tagger.predict(sentence)
-
-print(sentence.to_tagged_string())
-```
+STEP 3: Run our script ```python3.6 tagging_ner.py [input_file_name.txt] [output_file_name.txt]```
 
 ## Language Models
 
