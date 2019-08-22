@@ -34,7 +34,7 @@ STEP 1: Download our language model FlairBBP (backward and forward);
 
 STEP 2: Clone this repository; 
 
-STEP 3: Install Flair. See how to install [here](https://github.com/zalandoresearch/flair);
+STEP 3: Install Flair 0.4.1. See how to install [here](https://github.com/zalandoresearch/flair);
 
 STEP 4: Download NILC's Word Embedding. You must download Word2Vec-Skip-Gram with 300 dimensions; Put the file inside the cloned folder;
 
@@ -44,13 +44,13 @@ STEP 5: Run our script ```python3.6 ner_flair.py```
 
 Tag your text using our best model for NER. The model is formed by FlairBBP + NILC-Word2Vec-Skpg-300d. It is possible to recognize the following categories: PERSON, LOCATION, ORGANIZATION, TIME and VALUE.
 
-STEP 1: Download our NER model:
-* **Backward:** [FlairBBP-Backward](http://grupopln.inf.pucrs.br/lm-bbp/flairBBP_backward-pt.pt)
-* **Forward:** [FlairBBP-Forward](http://grupopln.inf.pucrs.br/lm-bbp/flairBBP_forward-pt.pt)
+STEP 1: Download our NER model [Download Here!](http://grupopln.inf.pucrs.br/lm-bbp/best-model.pt);
 
 STEP 2: Clone this repository;
 
-STEP 3: Run our script ```python3.6 tagging_ner.py [input_file_name.txt] [output_file_name.txt]```
+STEP 3: Run our script ```python3.6 tagging_ner.py [input_file_name.txt] [output_file_name.txt] [mode]``` modes:
+* conll - input text in conll formart
+* plain - input text in plain formart
 
 ## Language Models
 
