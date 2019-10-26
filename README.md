@@ -42,7 +42,7 @@ STEP 5: Run our script ```python3.6 ner_flair.py```
 
 ## Tagging your portuguese text with our NER model
 
-Tag your text using our best model for NER. The model is formed by FlairBBP + NILC-Word2Vec-Skpg-300d. It is possible to recognize the following categories: PERSON, LOCATION, ORGANIZATION, TIME and VALUE.
+Tag your text using our best model for NER. The model is formed by FlairBBP + NILC-Word2Vec-Skpg-300d. It is possible to recognize the following categories: PERSON, LOCATION, ORGANIZATION, TIME and VALUE. You need install Flair 0.4.1.
 
 STEP 1: Download our NER model [Download Here!](http://grupopln.inf.pucrs.br/lm-bbp/best-model.pt);
 
@@ -98,3 +98,14 @@ Language Model Corpora Size Details (after pre-processing):
 |    BlogSet-BR   |  58,494,090 | 1,807,669,068 |
 | ptwiki-20190301 |  7,053,954  |  162,109,057  |
 |   All Corpora   | 192,820,153 | 4,900,352,063 |
+
+# Citing our Paper
+```
+@inproceedings{santos2019assessing,
+  author = {Joaquim Santos and Bernardo Consoli and Cicero dos Santos and Juliano Terra and Sandra Collonini and Renata Vieira},
+  title = {Assessing the Impact of Contextual Embeddings for Portuguese Named Entity Recognition},
+  booktitle = {8th Brazilian Conference on Intelligent Systems, {BRACIS} 2019, Bahia, Brazil, October 15-18, 2019},
+  pages = {437--442},
+  year      = {2019}
+}
+```
