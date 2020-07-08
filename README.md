@@ -109,7 +109,7 @@ Language Model Corpora Size Details (after pre-processing):
                Sandra Collonini and
                Renata Vieira},
   title     = {Assessing the Impact of Contextual Embeddings for Portuguese Named Entity Recognition},
-  booktitle = {8th Brazilian Conference on Intelligent Systems, {BRACIS}, Bahia, Brazil, October 15-18},
+  booktitle = {Proceedings of the 8th Brazilian Conference on Intelligent Systems},
   pages     = {437--442},
   year      = {2019}
 }
