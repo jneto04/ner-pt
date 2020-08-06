@@ -42,7 +42,29 @@ STEP 5: Run our script ```python3.6 ner_flair.py```
 
 ## Tagging your portuguese text with our NER model
 
-Tag your text using our best model for NER. The model is formed by FlairBBP + NILC-Word2Vec-Skpg-300d. It is possible to recognize the following categories: PERSON, LOCATION, ORGANIZATION, TIME and VALUE. You need install Flair 0.4.1.
+Tag your text using our best model for NER. The model is formed by FlairBBP + NILC-Word2Vec-Skpg-300d. It is possible to recognize the following categories: PERSON, LOCATION, ORGANIZATION, TIME and VALUE. You need install the last version of Flair.
+
+STEP 1: Download our NER model [Download Here!](https://drive.google.com/file/d/1DirvI87wPS_l3G7AehbvGbZv0X8rCBVP/view?usp=sharing);
+
+STEP 2: Use the [_pToolNER_](https://github.com/jneto04/pToolNER) to labelling your text.
+
+```python
+pToolNER = PortugueseToolNER()
+
+pToolNER.sequenceTaggingOnText(
+               nerTrainedModelPath='best-model.pt',
+               rootFolderPath='./Your_Folder_With_Files_to_Labeling',
+               fileExtension='.txt',
+               useTokenizer=True,
+               maskNamedEntity=False,
+               createOutputFile=True,
+               outputFilePath='./Your_Folde_For_Output_Files',
+               outputFormat='plain',
+               createOutputListSpans=True
+               )
+```
+
+Alternative use (We strongly recommend you to use pToolNER!):
 
 STEP 1: Download our NER model [Download Here!](https://drive.google.com/file/d/1DirvI87wPS_l3G7AehbvGbZv0X8rCBVP/view?usp=sharing);
 
