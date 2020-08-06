@@ -64,7 +64,7 @@ pToolNER.sequenceTaggingOnText(
                )
 ```
 
-**Alternative use _(We strongly recommend you to use pToolNER!)_:**
+**Alternative use _(We strongly recommend you to use the pToolNER!)_:**
 
 STEP 1: Download our NER model [Download Here!](https://drive.google.com/file/d/1DirvI87wPS_l3G7AehbvGbZv0X8rCBVP/view?usp=sharing);
 
