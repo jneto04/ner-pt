@@ -44,7 +44,7 @@ STEP 5: Run our script ```python3.6 ner_flair.py```
 
 Tag your text using our best model for NER. The model is formed by FlairBBP + NILC-Word2Vec-Skpg-300d. It is possible to recognize the following categories: PERSON, LOCATION, ORGANIZATION, TIME and VALUE. You need install Flair 0.4.1.
 
-STEP 1: Download our NER model [Download Here!](http://grupopln.inf.pucrs.br/lm-bbp/best-model.pt);
+STEP 1: Download our NER model [Download Here!](https://drive.google.com/file/d/1DirvI87wPS_l3G7AehbvGbZv0X8rCBVP/view?usp=sharing);
 
 STEP 2: Clone this repository;
 
@@ -56,8 +56,8 @@ STEP 3: Run our script ```python3.6 tagging_ner.py [input_file_name.txt] [output
 
 ### Flair Embeddings - FlairBBP
 You can download our Flair Embeddings models (FlairBBP) in the following links:
-* **Backward:** [FlairBBP-Backward](http://grupopln.inf.pucrs.br/lm-bbp/flairBBP_backward-pt.pt)
-* **Forward:** [FlairBBP-Forward](http://grupopln.inf.pucrs.br/lm-bbp/flairBBP_forward-pt.pt)
+* **Backward:** [FlairBBP-Backward](https://drive.google.com/file/d/11X-STlWBqvdp1k_Q2VMs31XRJ0PoQOrf/view?usp=sharing)
+* **Forward:** [FlairBBP-Forward](https://drive.google.com/file/d/1UXri84BUH3p_DDoj71GEls6m8qM5v4Pw/view?usp=sharing)
 
 ### Word Embeddings
 You can download our Word Embedding models in the following links, note that all models were trained in 300 dimensions:
@@ -65,10 +65,10 @@ You can download our Word Embedding models in the following links, note that all
 
 | Algorithm  | Architecture | Downloads |
 | ------------- | ------------- | ------------- |
-| Word2Vec  | Skip-Gram  | [Word2Vec_skpg_300d](http://grupopln.inf.pucrs.br/lm-bbp/bbp_word2vec_skpg_300d.zip) |
-| Word2Vec  | CBOW  | [Word2Vec_cbow_300d](http://grupopln.inf.pucrs.br/lm-bbp/bbp_word2vec_cbow_300d.zip) |
-| FastText   | Skip-Gram  | [Fasttext_skpg_300d](http://grupopln.inf.pucrs.br/lm-bbp/bbp_fasttext_skpg_300d.zip) |
-| FastText   | CBOW  | [Fasttext_cbow_300d](http://grupopln.inf.pucrs.br/lm-bbp/bbp_fasttext_cbow_300d.zip) |
+| Word2Vec  | Skip-Gram  | [Word2Vec_skpg_300d](https://drive.google.com/file/d/1AMefgIEUASmRZz4bMkxq-FCs023MCdmZ/view?usp=sharing) |
+| Word2Vec  | CBOW  | [Word2Vec_cbow_300d](https://drive.google.com/file/d/122Td7-j_PgFZJ3FWt6RnaAEe_yMtRh8h/view?usp=sharing) |
+| FastText   | Skip-Gram  | [Fasttext_skpg_300d](https://drive.google.com/file/d/1PhobB-8Ywb92EzupKOOcQGGIiqgaZSKA/view?usp=sharing) |
+| FastText   | CBOW  | [Fasttext_cbow_300d](https://drive.google.com/file/d/1sZQ_TR_Y_vBdRYveqR6nhWu8PTCzjfJG/view?usp=sharing) |
 
 ### NILC Word Embeddings
 You can download the Word Embeddings provided by NILC in the following link: http://nilc.icmc.usp.br/embeddings
