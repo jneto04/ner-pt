@@ -34,7 +34,7 @@ STEP 1: Download our language model FlairBBP (backward and forward);
 
 STEP 2: Clone this repository; 
 
-STEP 3: Install Flair 0.4.1. See how to install [here](https://github.com/zalandoresearch/flair);
+STEP 3: Install Flair. See how to install [here](https://github.com/zalandoresearch/flair);
 
 STEP 4: Download NILC's Word Embedding. You must download Word2Vec-Skip-Gram with 300 dimensions; Put the file inside the cloned folder;
 
@@ -51,14 +51,15 @@ STEP 2: Use the [_pToolNER_](https://github.com/jneto04/pToolNER) to labelling y
 ```python
 pToolNER = PortugueseToolNER()
 
+pToolNER.loadNamedEntityModel('best-model.pt')
+
 pToolNER.sequenceTaggingOnText(
-               nerTrainedModelPath='best-model.pt',
-               rootFolderPath='./Your_Folder_With_Files_to_Labeling',
+               rootFolderPath='./PredictablesFiles',
                fileExtension='.txt',
                useTokenizer=True,
                maskNamedEntity=False,
                createOutputFile=True,
-               outputFilePath='./Your_Folde_For_Output_Files',
+               outputFilePath='./TaggedTexts',
                outputFormat='plain',
                createOutputListSpans=True
                )
