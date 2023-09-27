@@ -79,8 +79,8 @@ STEP 3: Run our script ```python3.6 tagging_ner.py [input_file_name.txt] [output
 
 ### Flair Embeddings - FlairBBP
 You can download our Flair Embeddings models (FlairBBP) in the following links:
-* **Backward:** [FlairBBP-Backward](https://drive.google.com/file/d/11X-STlWBqvdp1k_Q2VMs31XRJ0PoQOrf/view?usp=sharing)
-* **Forward:** [FlairBBP-Forward](https://drive.google.com/file/d/1UXri84BUH3p_DDoj71GEls6m8qM5v4Pw/view?usp=sharing)
+* **Backward:** [FlairBBP-Backward](https://drive.google.com/file/d/1skW89mlm94-fk9NhV-0M7cX4ZRKpDydH/view?usp=sharing)
+* **Forward:** [FlairBBP-Forward](https://drive.google.com/file/d/1dqqce73PHZbU70ITalt64zz6lGHvbb6c/view?usp=sharing)
 
 ### Word Embeddings
 You can download our Word Embedding models in the following links, note that all models were trained in 300 dimensions:
@@ -88,10 +88,10 @@ You can download our Word Embedding models in the following links, note that all
 
 | Algorithm  | Architecture | Downloads |
 | ------------- | ------------- | ------------- |
-| Word2Vec  | Skip-Gram  | [Word2Vec_skpg_300d](https://drive.google.com/file/d/1AMefgIEUASmRZz4bMkxq-FCs023MCdmZ/view?usp=sharing) |
-| Word2Vec  | CBOW  | [Word2Vec_cbow_300d](https://drive.google.com/file/d/122Td7-j_PgFZJ3FWt6RnaAEe_yMtRh8h/view?usp=sharing) |
-| FastText   | Skip-Gram  | [Fasttext_skpg_300d](https://drive.google.com/file/d/1PhobB-8Ywb92EzupKOOcQGGIiqgaZSKA/view?usp=sharing) |
-| FastText   | CBOW  | [Fasttext_cbow_300d](https://drive.google.com/file/d/1sZQ_TR_Y_vBdRYveqR6nhWu8PTCzjfJG/view?usp=sharing) |
+| Word2Vec  | Skip-Gram  | [Word2Vec_skpg_300d](https://drive.google.com/file/d/1GC1iS8hiobBF94UJY5r2vT5caGlvPfoD/view?usp=sharing) |
+| Word2Vec  | CBOW  | [Word2Vec_cbow_300d](https://drive.google.com/file/d/1-3NO_ladhqkFG3Y7f_-5PoirymUCwe1k/view?usp=sharing) |
+| FastText   | Skip-Gram  | [Fasttext_skpg_300d](https://drive.google.com/file/d/1K8Sg4AA1Nnr0beiBhMRiXFE0yQQjRVV8/view?usp=sharing) |
+| FastText   | CBOW  | [Fasttext_cbow_300d](https://drive.google.com/file/d/18R-DF0MevrbVH4lP7t6IQi2a9xfEO3uX/view?usp=sharing) |
 
 ### NILC Word Embeddings
 You can download the Word Embeddings provided by NILC in the following link: http://nilc.icmc.usp.br/embeddings
